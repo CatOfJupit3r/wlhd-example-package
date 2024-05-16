@@ -3,6 +3,14 @@
 This is an template repository for building your own WLHD package. It includes all the necessary information and files to get you started.
 
 
+## Basics
+
+To create your very own WLHD package, you need to follow these steps:
+- create **GITHUB** repository from this template with name following this pattern: `wlhd-<package-name>-package`
+- clone the repository to your local machine
+
+It is very important to create on **GITHUB** with the name following the pattern any other links will not be recognized by the game server.
+
 ## Structure
 
 The repository is structured in a way that you can easily start building your own package. It includes all the necessary files and directories to get you started.
