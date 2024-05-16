@@ -1,0 +1,8 @@
+{
+    "title": "Example package",
+    "description": "Example of possible package, supported by WLHD game servers.",
+    "descriptor": "example",
+    "author": "CatOfJupit3r",
+    "version": "0.0.1",
+    "source": "https://github.com/CatOfJupit3r/wlhd-example-package"
+}

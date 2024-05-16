@@ -1,0 +1,25 @@
+{
+    "title": "Title of the project",
+    "description": "Description of the project",
+    "prerequisites": "Prerequisites for the project",
+    "installation": "Installation instructions",
+    "environment_variables": "Environment variables",
+    "usage": "Usage instructions",
+    "tree": {
+        "name": "Name of the tree",
+        "description": "Description of the tree",
+        "nodes": [
+            {
+                "name": "Name of the node",
+                "description": "Description of the node",
+                "children": [
+                    {
+                        "name": "Name of the child node",
+                        "description": "Description of the child node",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}

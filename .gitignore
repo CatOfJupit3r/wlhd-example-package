@@ -1,0 +1,10 @@
+**/__pycache__/
+__pycache__/
+.idea/*
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/wlhd-example-package.iml
