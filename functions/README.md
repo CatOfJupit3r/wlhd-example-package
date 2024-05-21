@@ -70,7 +70,6 @@ def my_custom_hook(hooks: HookContext, arg1: str, arg2: int, **_):
     - `**_` is a way to accept any number of additional arguments. They are not validated by the schema.
 - `print("Hello from my custom hook! I got arguments:", arg1, arg2); pass` — this is the code that will be executed when
   the hook is used.
-- `pass` — this is a placeholder. You can put any code here.
 
 If everything went well, you can now use your hook in the game logic! Here is an example:
 
