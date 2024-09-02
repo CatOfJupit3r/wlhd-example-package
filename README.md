@@ -20,19 +20,19 @@ For details of each directory, on its structure and purpose, see README.md file 
 ### Directories
 
 - 'assets' - Contains all the assets for your package. This includes images, sounds, and other files.
-- 'data' - Contains JSON preset data for your package.
-- 'declarations' - Contains Python declarations of data jsons. (not used in code directly)
+- 'data' - Contains JSON preset data for your package. Is not included in game logic, but including your components here ensures that frontend application will recognize and use those presets on combat creation and editing.
 - 'functions' - Contains all the custom hooks of your package.
 - 'translations' - Contains all the translations for your package.
 - 'media' - Contains all the media files for **README.md** file. (purged on import)
+- 'components' - Contains Python declarations of presets, which will be used to create game components in combats.
 
 ## Importing and Exporting
 
 Take into account, that WLHD repositories will automatically purge all files that don't belong to it.
 
-For example, game coordinator will delete `functions` and `declarations` directories, as they are not used in the game server.
+For example, game coordinator will delete `functions` and `components` directories, as they are not used in the game server.
 
-And game server will delete `assets` and `translations` directories, as they are not used in the game server.
+And game server will delete `assets`, `data` and `translations` directories, as they are not used in the game server.
 
 
 ## Manifest
